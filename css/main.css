@@ -690,7 +690,7 @@ body {
 }
 .site-meta {
   margin: 0;
-  text-align: left;
+  text-align: right;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -701,13 +701,13 @@ body {
   position: relative;
   display: inline-block;
   padding: 0 40px;
-  color: #f5f5f5;
+  color: #222;
   background: #222;
   border-bottom: none;
   font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .brand:hover {
-  color: #f5f5f5;
+  color: #222;
 }
 .logo {
   display: inline-block;
@@ -965,7 +965,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1b3ccf;
+  background: #ff60e9;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -2119,7 +2119,7 @@ ul li {
 }
 .posts-expand .post-title,
 .posts-expand .post-meta {
-  text-align: left;
+  text-align: right;
 }
 @media (max-width: 767px) {
   .posts-expand .post-title,
