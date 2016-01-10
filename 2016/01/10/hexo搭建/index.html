@@ -58,36 +58,33 @@
 
 
 <meta name="description" content="折腾了一天，总算用hexo在git上搭建好了一个博客，中间遇到了一些问题，正好记录下来，以供参考。　　
-##注册和安装github  
-
+注册和安装github
 登陆git官网注册账号并邮箱验证
 下载github客户端msysgit，按照向导安装即可
 新建仓库,仓库名必须为：git账户名.github.io
 打开Git Bash,设置账号和邮箱:
-12git config --global user.email &quot;you">
+12git config --global user.email &quot;your ema">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用Hexo在git上搭建个人网站">
 <meta property="og:url" content="http://yoursite.com/2016/01/10/hexo搭建/index.html">
 <meta property="og:site_name" content="youyequanliu's blog">
 <meta property="og:description" content="折腾了一天，总算用hexo在git上搭建好了一个博客，中间遇到了一些问题，正好记录下来，以供参考。　　
-##注册和安装github  
-
+注册和安装github
 登陆git官网注册账号并邮箱验证
 下载github客户端msysgit，按照向导安装即可
 新建仓库,仓库名必须为：git账户名.github.io
 打开Git Bash,设置账号和邮箱:
-12git config --global user.email &quot;you">
-<meta property="og:updated_time" content="2016-01-10T06:46:57.627Z">
+12git config --global user.email &quot;your ema">
+<meta property="og:updated_time" content="2016-01-10T06:50:05.287Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用Hexo在git上搭建个人网站">
 <meta name="twitter:description" content="折腾了一天，总算用hexo在git上搭建好了一个博客，中间遇到了一些问题，正好记录下来，以供参考。　　
-##注册和安装github  
-
+注册和安装github
 登陆git官网注册账号并邮箱验证
 下载github客户端msysgit，按照向导安装即可
 新建仓库,仓库名必须为：git账户名.github.io
 打开Git Bash,设置账号和邮箱:
-12git config --global user.email &quot;you">
+12git config --global user.email &quot;your ema">
 
 
 
@@ -298,8 +295,7 @@
 
       
         <p>　　折腾了一天，总算用hexo在git上搭建好了一个博客，中间遇到了一些问题，正好记录下来，<br>以供参考。　　</p>
-<p>##<strong>注册和安装github</strong>  </p>
-<ol>
+<h2 id="u6CE8_u518C_u548C_u5B89_u88C5github"><a href="#u6CE8_u518C_u548C_u5B89_u88C5github" class="headerlink" title="注册和安装github"></a><strong>注册和安装github</strong></h2><ol>
 <li>登陆git官网注册账号并邮箱验证</li>
 <li>下载github客户端msysgit，按照向导安装即可</li>
 <li>新建仓库,仓库名必须为：git账户名.github.io</li>
@@ -309,8 +305,7 @@
 <li><p>生成ssh:<br>参考官网<a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank" rel="external">https://help.github.com/articles/generating-ssh-keys/</a></p>
 </li>
 </ol>
-<p>##<strong>部署hexo</strong></p>
-<ol>
+<h2 id="u90E8_u7F72hexo"><a href="#u90E8_u7F72hexo" class="headerlink" title="部署hexo"></a><strong>部署hexo</strong></h2><ol>
 <li>下载并安装Node.js,按照向导安装即可。</li>
 <li><p>安装hexo：任意位置打开Git Bash,执行:</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo</span></span><br></pre></td></tr></table></figure>
@@ -330,7 +325,7 @@
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server -<span class="tag">p</span> <span class="number">4001</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>##<strong>配置hexo</strong><br>　　在hexo目录下有一个_config.yml文件，该文件主要用于全局设置：</p>
+<h2 id="u914D_u7F6Ehexo"><a href="#u914D_u7F6Ehexo" class="headerlink" title="配置hexo"></a><strong>配置hexo</strong></h2><p>　　在hexo目录下有一个_config.yml文件，该文件主要用于全局设置：</p>
 <ol>
 <li><p>网站描述：</p>
 <figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">title</span>: <span class="string">这是你的网站标题</span></span><br><span class="line"><span class="attribute">subtitle</span>: <span class="string">你的网站副标题</span></span><br><span class="line"><span class="attribute">description</span>: <span class="string">网站描述</span></span><br><span class="line"><span class="attribute">author</span>: <span class="string">作者</span></span><br><span class="line"><span class="attribute">language</span>: <span class="string"> zh-Hans</span></span><br><span class="line"><span class="attribute">timezone:</span></span><br></pre></td></tr></table></figure>
@@ -342,7 +337,7 @@
 </li>
 <li>浏览器访问youraccount.github.io可以看到你的网站，首次部署，需要等几分钟。</li>
 </ol>
-<p>##<strong>配置next主题</strong><br>hexo有许多主题，这里推荐使用next主题：<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a><br>参照官方文档即可。</p>
+<h2 id="u914D_u7F6Enext_u4E3B_u9898"><a href="#u914D_u7F6Enext_u4E3B_u9898" class="headerlink" title="配置next主题"></a><strong>配置next主题</strong></h2><p>hexo有许多主题，这里推荐使用next主题：<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a><br>参照官方文档即可。</p>
 
       
     </div>
@@ -484,7 +479,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#u6CE8_u518C_u548C_u5B89_u88C5github"><span class="nav-number">1.</span> <span class="nav-text">注册和安装github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u90E8_u7F72hexo"><span class="nav-number">2.</span> <span class="nav-text">部署hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u914D_u7F6Ehexo"><span class="nav-number">3.</span> <span class="nav-text">配置hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u914D_u7F6Enext_u4E3B_u9898"><span class="nav-number">4.</span> <span class="nav-text">配置next主题</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
