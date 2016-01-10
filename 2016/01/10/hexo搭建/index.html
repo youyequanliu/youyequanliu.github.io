@@ -77,7 +77,7 @@
 新建仓库,仓库名必须为：git账户名.github.io
 打开Git Bash,设置账号和邮箱:
 12git config --global user.email &quot;you">
-<meta property="og:updated_time" content="2016-01-10T05:44:26.764Z">
+<meta property="og:updated_time" content="2016-01-10T06:02:09.112Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用Hexo在git上搭建个人网站">
 <meta name="twitter:description" content="折腾了一天，总算用hexo在git上搭建好了一个博客，中间遇到了一些问题，正好记录下来，以供参考。　　
@@ -311,7 +311,25 @@
 </li>
 <li><p>下载并安装Node.js,按照向导安装即可。</p>
 </li>
-<li>安装hexo：任意位置打开Git Bash,执行<br>···<br>npm install -g hexo</li>
+<li><p>安装hexo：任意位置打开Git Bash,执行</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建站点目录hexo,在hexo目录右键打开Git Bash:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> init</span><br></pre></td></tr></table></figure>
+<p>这样就初始化了hexo站点。</p>
+</li>
+<li><p>安装依赖包</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>这样一个初始化的hexo站点就好了，现在本地验证：</p>
+ <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo <span class="keyword">server</span></span><br></pre></td></tr></table></figure>
+<p> 此时本地浏览器访问localhost:4000，可看到hexo<br> 若不能访问：</p>
+ <figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm installl hexo-server <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+<p> 或者由于端口占用，可以换个端口；</p>
+ <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server -<span class="tag">p</span> <span class="number">4001</span></span><br></pre></td></tr></table></figure>
+<p> <strong>配置hexo</strong></p>
+</li>
+<li></li>
 </ol>
 
       
