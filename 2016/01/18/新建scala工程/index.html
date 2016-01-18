@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=5.0.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="环境搭建," />
+  <meta name="keywords" content="scala," />
 
 
 
@@ -57,31 +57,42 @@
 
 
 
-<meta name="description" content="scala是基于java虚拟机的混合面向对象和函数式的语言,目前火热的spark就是scala语言编写的。
-安装JDK
-下载JDK,推荐使用java7
-按照安装向导安装即可,假设安装在d:\Java
-新增系统变量JAVA_HOME，值为D:\Java\jdk1.7.0_79
-设置系统变量CLASSPATH，值为.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\too">
+<meta name="description" content="新建non-sbt工程
+打开idea,新建工程，选择scala,选择Non-Sbt:
+
+
+写工程名为NonSbtTest,设置scala home,默认的是到bin目录，但是无法识别library,改  　　为安装scala的根目录，即bin的上层目录，我安装:
+此时，只有src目录，新建scala object:
+输入代码：
+12345object Mytest &amp;#123;  def main">
 <meta property="og:type" content="article">
-<meta property="og:title" content="scala开发环境搭建">
-<meta property="og:url" content="http://yoursite.com/2016/01/15/scala开发环境搭建/index.html">
+<meta property="og:title" content="新建scala工程">
+<meta property="og:url" content="http://yoursite.com/2016/01/18/新建scala工程/index.html">
 <meta property="og:site_name" content="youyequanliu's blog">
-<meta property="og:description" content="scala是基于java虚拟机的混合面向对象和函数式的语言,目前火热的spark就是scala语言编写的。
-安装JDK
-下载JDK,推荐使用java7
-按照安装向导安装即可,假设安装在d:\Java
-新增系统变量JAVA_HOME，值为D:\Java\jdk1.7.0_79
-设置系统变量CLASSPATH，值为.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\too">
-<meta property="og:updated_time" content="2016-01-15T15:22:43.683Z">
+<meta property="og:description" content="新建non-sbt工程
+打开idea,新建工程，选择scala,选择Non-Sbt:
+
+
+写工程名为NonSbtTest,设置scala home,默认的是到bin目录，但是无法识别library,改  　　为安装scala的根目录，即bin的上层目录，我安装:
+此时，只有src目录，新建scala object:
+输入代码：
+12345object Mytest &amp;#123;  def main">
+<meta property="og:image" content="http://yoursite.com/file/non-sbt.png">
+<meta property="og:image" content="http://yoursite.com/./file/scalahome.PNG">
+<meta property="og:image" content="http://yoursite.com/./file/newclass.PNG">
+<meta property="og:image" content="http://yoursite.com/./file/run.PNG">
+<meta property="og:image" content="http://yoursite.com/./file/result.PNG">
+<meta property="og:updated_time" content="2016-01-18T15:17:52.115Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="scala开发环境搭建">
-<meta name="twitter:description" content="scala是基于java虚拟机的混合面向对象和函数式的语言,目前火热的spark就是scala语言编写的。
-安装JDK
-下载JDK,推荐使用java7
-按照安装向导安装即可,假设安装在d:\Java
-新增系统变量JAVA_HOME，值为D:\Java\jdk1.7.0_79
-设置系统变量CLASSPATH，值为.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\too">
+<meta name="twitter:title" content="新建scala工程">
+<meta name="twitter:description" content="新建non-sbt工程
+打开idea,新建工程，选择scala,选择Non-Sbt:
+
+
+写工程名为NonSbtTest,设置scala home,默认的是到bin目录，但是无法识别library,改  　　为安装scala的根目录，即bin的上层目录，我安装:
+此时，只有src目录，新建scala object:
+输入代码：
+12345object Mytest &amp;#123;  def main">
 
 
 
@@ -99,7 +110,7 @@
   };
 </script>
 
-  <title> scala开发环境搭建 | youyequanliu's blog </title>
+  <title> 新建scala工程 | youyequanliu's blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -227,7 +238,7 @@
             
             
               
-                scala开发环境搭建
+                新建scala工程
               
             
           </h1>
@@ -239,8 +250,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-15T20:20:25+08:00" content="2016-01-15">
-              2016-01-15
+            <time itemprop="dateCreated" datetime="2016-01-18T21:43:56+08:00" content="2016-01-18">
+              2016-01-18
             </time>
           </span>
 
@@ -269,8 +280,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/01/15/scala开发环境搭建/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/15/scala开发环境搭建/" itemprop="commentsCount"></span>
+                <a href="/2016/01/18/新建scala工程/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/18/新建scala工程/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -291,40 +302,19 @@
       
 
       
-        <p>　　scala是基于java虚拟机的混合面向对象和函数式的语言,目前火热的spark就是scala语言<br>编写的。</p>
-<h2 id="u5B89_u88C5JDK"><a href="#u5B89_u88C5JDK" class="headerlink" title="安装JDK"></a><strong>安装JDK</strong></h2><ol>
-<li>下载JDK,推荐使用java7</li>
-<li>按照安装向导安装即可,假设安装在d:\Java</li>
-<li>新增系统变量JAVA_HOME，值为D:\Java\jdk1.7.0_79</li>
-<li>设置系统变量CLASSPATH，值为.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar</li>
-<li>添加Path,在path当前值后面追加;%JAVA_HOME%\bin;JAVA_HOME%\jre\bin</li>
-<li>windows+R键打开命令行，输入java -version,如下：<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">java version <span class="string">"1.7.0_79"</span></span><br><span class="line">Java<span class="list">(<span class="keyword">TM</span>)</span> SE Runtime Environment <span class="list">(<span class="keyword">build</span> <span class="number">1.7</span>.<span class="number">0</span>_79-b15)</span></span><br><span class="line">Java HotSpot<span class="list">(<span class="keyword">TM</span>)</span> <span class="number">64</span>-Bit Server VM <span class="list">(<span class="keyword">build</span> <span class="number">24.79</span>-b02, mixed mode)</span></span><br></pre></td></tr></table></figure>
-</li>
+        <h2 id="u65B0_u5EFAnon-sbt_u5DE5_u7A0B"><a href="#u65B0_u5EFAnon-sbt_u5DE5_u7A0B" class="headerlink" title="新建non-sbt工程"></a><strong>新建non-sbt工程</strong></h2><ol>
+<li>打开idea,新建工程，选择scala,选择Non-Sbt:<br><img src="/file/non-sbt.png" alt="alt text"></li>
 </ol>
-<h2 id="u5B89_u88C5scala"><a href="#u5B89_u88C5scala" class="headerlink" title="安装scala"></a><strong>安装scala</strong></h2><ol>
-<li>下载scala安装包，这里选择scala-2.10.4.msi</li>
-<li>安装scala到d:\scala目录下</li>
-<li>在系统变量path追加D:\scala\bin;</li>
-<li>在命令行scala -version,如下：<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\WINDOWS\system32&gt;<span class="keyword">scala</span> -<span class="keyword">version</span></span><br><span class="line"><span class="keyword">Scala</span> code runner <span class="keyword">version</span> 2.10.4 -- <span class="keyword">Copyright</span> 2002-2013, LAMP/EPFL</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="u5B89_u88C5sbt"><a href="#u5B89_u88C5sbt" class="headerlink" title="安装sbt"></a><strong>安装sbt</strong></h2><p>　　sbt是simple build tool的简称，是scala的项目构建工具，类似常用的管理java项目<br>的maven</p>
 <ol>
-<li>官网下载sbt</li>
-<li>安装在d:\sbt</li>
-<li>安装后d:\sbt目录下会新增bin和conf目录</li>
-<li>打开conf目录下的sbtconfig.txt,添加如下代码：<figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">-<span class="ruby"><span class="constant">Dsbt</span>.log.format=<span class="keyword">true</span></span><br><span class="line"></span></span><br><span class="line">-<span class="ruby"><span class="constant">Dsbt</span>.boot.directory=<span class="constant">D</span><span class="symbol">:/boot/</span></span><br><span class="line"></span></span><br><span class="line">-<span class="ruby"><span class="constant">Dsbt</span>.ivy.home=<span class="constant">D</span><span class="symbol">:/ivy/</span></span></span><br></pre></td></tr></table></figure>
+<li>写工程名为NonSbtTest,设置scala home,默认的是到bin目录，但是无法识别library,改  　　为安装scala的根目录，即bin的上层目录，我安装:<div align="center"><br><img src="./file/scalahome.PNG" width="400" height="300" alt="无sbt" align="center"><br></div></li>
+<li>此时，只有src目录，新建scala object:<div align="center"><br><img src="./file/newclass.PNG" width="200" height="100" alt="无sbt" align="center"><br></div></li>
+<li><p>输入代码：</p>
+<figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">object</span> <span class="title">Mytest</span> &#123;</span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">main</span>(</span>args:<span class="type">Array</span>[<span class="type">String</span>])&#123;</span><br><span class="line">    println(<span class="string">"hello,world!"</span>)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<p>在没有使用sbt构建工程前不要新建该两个工程</p>
-<ol>
-<li>在系统变量path中追加;D:\sbt\bin</li>
-<li>命令行执行输入sbt –version(两个-)：<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\WINDOWS\system32&gt;sbt <span class="comment">--version</span></span><br><span class="line">sbt launcher <span class="property">version</span> <span class="number">0.13</span><span class="number">.2</span></span><br></pre></td></tr></table></figure>
+<li><p>右键“Run Mytest”:</p>
+<div align="center"><br><img src="./file/run.PNG" width="100" height="50" alt="无sbt" align="center"><br></div></li>
+<li>运行结果：<div align="center"><br><img src="./file/result.PNG" width="100" height="50" alt="无sbt" align="center"><br></div>
 </li>
-</ol>
-<h2 id="u5B89_u88C5intellij_idea"><a href="#u5B89_u88C5intellij_idea" class="headerlink" title="安装intellij idea"></a><strong>安装intellij idea</strong></h2><ol>
-<li>下载并安装idea</li>
-<li>运行idea,点击“configure”=&gt;”Plugins“，搜索scala,<br>安装scala插件即可</li>
 </ol>
 
       
@@ -334,7 +324,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/环境搭建/" rel="tag">#环境搭建</a>
+            <a href="/tags/scala/" rel="tag">#scala</a>
           
         </div>
       
@@ -343,17 +333,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/01/10/hexo搭建/" rel="next" title="利用Hexo在git上搭建个人网站">
-                <i class="fa fa-chevron-left"></i> 利用Hexo在git上搭建个人网站
+              <a href="/2016/01/15/scala开发环境搭建/" rel="next" title="scala开发环境搭建">
+                <i class="fa fa-chevron-left"></i> scala开发环境搭建
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/01/18/新建scala工程/" rel="prev" title="新建scala工程">
-                新建scala工程 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -379,8 +365,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/01/15/scala开发环境搭建/"
-           data-title="scala开发环境搭建" data-url="http://yoursite.com/2016/01/15/scala开发环境搭建/">
+      <div class="ds-thread" data-thread-key="2016/01/18/新建scala工程/"
+           data-title="新建scala工程" data-url="http://yoursite.com/2016/01/18/新建scala工程/">
       </div>
     
   </div>
@@ -471,7 +457,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#u5B89_u88C5JDK"><span class="nav-number">1.</span> <span class="nav-text">安装JDK</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5B89_u88C5scala"><span class="nav-number">2.</span> <span class="nav-text">安装scala</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5B89_u88C5sbt"><span class="nav-number">3.</span> <span class="nav-text">安装sbt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5B89_u88C5intellij_idea"><span class="nav-number">4.</span> <span class="nav-text">安装intellij idea</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#u65B0_u5EFAnon-sbt_u5DE5_u7A0B"><span class="nav-number">1.</span> <span class="nav-text">新建non-sbt工程</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
